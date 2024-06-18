@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #f3e5d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card{
+    width: 736px;
+    height: 1708px;
+    margin: 123px 0px 123px;
+    margin-bottom: 123px;
+    background-color: #FFFF;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main_image{
+    width: 656px;
+    height: 300px;
+    border-radius: 12px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.main-car--recipe{
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.main-car--recipe h1{
+    color: #312E2C;
+    font-size: 40px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+}
