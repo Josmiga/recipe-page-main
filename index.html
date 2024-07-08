@@ -9,6 +9,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,206 +20,6 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      :root {
-        --custom-color-letter: #5f564d;
-        --tittle-color-text: #854632;
-        --normal-text-family: "Outfit", sans-serif;
-        --tittle-text-family: "Young Serif", sans-serif;
-      }
-
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      html,
-      body {
-        background-color: #f3e5d7;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .main-card {
-        width: 736px;
-        margin: 123px 0px 123px;
-        margin-bottom: 123px;
-        background-color: #ffff;
-        border-radius: 24px;
-
-        display: flex;
-        flex-direction: column;
-      }
-
-      .main_image {
-        width: 100%;
-        height: 300px;
-        border-radius: 12px;
-        align-self: center;
-        padding: 40px 40px 0px 40px;
-      }
-
-      .main-car--recipe {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 40px;
-      }
-
-      .main-car--recipe h1 {
-        color: #312e2c;
-        font-size: 40px;
-        font-family: var(--tittle-text-family);
-        font-weight: 400;
-        line-height: 40px;
-      }
-
-      .main-car--recipe h2 {
-        color: var(--tittle-color-text);
-        font-family: var(--tittle-text-family);
-        margin-top: 32px;
-      }
-
-      .main-car--recipe p {
-        padding-top: 24px;
-        color: var(--custom-color-letter);
-        font-size: 16px;
-        font-family: var(--normal-text-family);
-        font-weight: 400;
-        line-height: 24px;
-      }
-
-      .main-car--recipe_preparation {
-        width: 100%;
-        margin-top: 32px;
-        padding: 28px;
-        background-color: #fff7fb;
-        border-radius: 12px;
-      }
-
-      .main-car--recipe_preparation h2 {
-        color: #7a284e;
-        font-size: 20px;
-        font-family: var(--normal-text-family);
-        font-weight: 600;
-        line-height: 20px;
-        margin: 0;
-      }
-
-      .recipe-preparation-ul {
-        list-style-position: inside;
-        margin-top: 16px;
-      }
-
-      .recipe-preparation-ul li:not(:last-child) {
-        margin-bottom: 8px;
-      }
-
-      .main-card--ul_ingredients {
-        list-style-position: inside;
-        margin-top: 24px;
-      }
-
-      .main-card--ul_ingredients li::marker {
-        color: var(--tittle-color-text);
-      }
-
-      .main-card--ul_ingredients li {
-        color: var(--custom-color-letter);
-        font-family: var(--normal-text-family);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-      }
-
-      .main-card--ul_ingredients li:not(:last-child),
-      .main-card--ol_instructions li:not(:last-child) {
-        margin-bottom: 8px;
-      }
-
-      .recipe-preparation-ul span,
-      .main-card--ol_instructions span {
-        font-size: 16px;
-        font-family: var(--normal-text-family);
-        line-height: 24px;
-        color: var(--custom-color-letter);
-      }
-
-      .main-card--ol_instructions {
-        margin-top: 24px;
-        margin-left: 8px;
-        list-style-position: inside;
-      }
-
-      .main-card--ol_instructions li::marker {
-        color: var(--tittle-color-text);
-        font-weight: 700;
-        display: inline-block;
-        margin-right: 30px;
-        font-family: var(--normal-text-family);
-      }
-
-      .main-card--ol_instructions li::before {
-        color: var(--tittle-color-text);
-        font-size: 16px;
-        font-family: var(--normal-text-family);
-        font-weight: 700;
-        content: "";
-        width: 10px;
-        display: inline-block;
-      }
-
-      hr {
-        margin-top: 32px;
-      }
-
-      table {
-        /* border-collapse: separate; */
-        border-spacing: 0px 12px;
-        margin-top: 24px;
-      }
-
-      table td {
-        border-bottom: 1px solid #e3ddd7;
-      }
-
-      table tr td:nth-child(1) {
-        color: var(--custom-color-letter);
-        font-family: var(--normal-text-family);
-        font-weight: 400;
-        line-height: 24px;
-      }
-
-      table tr td:nth-child(2) {
-        color: var(--tittle-color-text);
-        font-family: var(--normal-text-family);
-        font-weight: 700;
-        line-height: 24px;
-      }
-
-      @media only screen and (max-width: 736px) {
-        .main-card {
-          width: 100%;
-          border-radius: 0px;
-          margin: 0;
-          min-width: 300px;
-        }
-
-        .main_image {
-          border-radius: 0px;
-          padding: 0;
-          height: auto;
-        }
-
-        .main-car--recipe {
-          width: 100%;
-          padding: 32px;
-        }
-      }
-    </style>
     <title>Recipe page main</title>
   </head>
   <body>
@@ -279,8 +80,8 @@
             <li>
               <span style="font-weight: 700">Heat the pan</span
               ><span style="font-weight: 400"
-                >: Place a non-stick frying pan over medium heat and add butter
-                or oil.</span
+                >: Place a non-stick frying pan over medium heat and
+                add butter or oil.</span
               >
             </li>
             <li>
@@ -313,12 +114,9 @@
               >
             </li>
           </ol>
-          <hr />
+          <hr>
           <h2>Nutrition</h2>
-          <p>
-            The table below shows nutritional values per serving without the
-            additional fillings.
-          </p>
+          <p>The table below shows nutritional values per serving without the additional fillings.</p>
           <table>
             <tr>
               <td>Calories</td>
