@@ -1,8 +1,13 @@
 # Frontend Mentor - Recipe page
 
-![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Recipe Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). 
 
-## Welcome! 👋
+## Overview
+
+### Screenshot
+
+![Design preview for the Recipe page coding challenge](./assets/images/Capture.png)
+
 
 Thanks for checking out this front-end coding challenge.
 
