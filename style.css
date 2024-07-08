@@ -14,14 +14,14 @@
 html, body{
     background-color: #f3e5d7;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .main-card{
     width: 736px;
-    margin: 123px 0px 123px;
-    margin-bottom: 123px;
+    margin: 123px 0px 40px;
     background-color: #FFFF;
     border-radius: 24px;
 
@@ -191,6 +191,20 @@ table tr td:nth-child(2){
     .main-car--recipe{
         width: 100%;
         padding: 32px;
+    }
+
+    .first-footer{
+        font-family: var(--tittle-text-family);
+        font-size: 12px;
+        color: #D9D9D9;
+        position: absolute;
+        bottom: 12px;
+    }
+    
+    .first-footer a {
+        text-decoration: none;
+        color: #D9D9D9;
+        font-weight: 700;
     }
 }
 

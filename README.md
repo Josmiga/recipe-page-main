@@ -10,7 +10,7 @@ This is a solution to the [Recipe Page Challenge on Frontend Mentor](https://www
 
 
 ### Links
-<!-- - Github Site URL: [Josmiga - Social links profile](https://josmiga.github.io/social-links-profile-main/) -->
+- Github Site URL: [Josmiga - Recipe Page](https://josmiga.github.io/recipe-page-main/)
 
 ## My process
 ### Built with
